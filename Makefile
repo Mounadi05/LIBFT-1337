@@ -24,8 +24,6 @@ FLGS	= -Wall -Wextra -Werror
 
 LIB1	= ar -rcs
 
-LIB2	= ranlib
-
 RM		= rm -f
 
 
@@ -34,11 +32,9 @@ all:		$(NAME)
 
 $(NAME):	$(OBJS)
 			$(LIB1) $(NAME) $(OBJS)
-			$(LIB2) $(NAME)
 
 bonus:		$(NAME) $(BONUS_O)
 			$(LIB1) $(NAME) $(BONUS_O)
-			$(LIB2) $(NAME)
 
 .c.o:
 			$(GCC) $(FLGS) -I $(ICLS) -c $<
