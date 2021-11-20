@@ -6,7 +6,7 @@
 /*   By: amounadi <mounadi1337@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 20:52:08 by amounadi          #+#    #+#             */
-/*   Updated: 2021/11/10 15:56:27 by amounadi         ###   ########.fr       */
+/*   Updated: 2021/11/20 17:54:08 by amounadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,4 +67,5 @@ void	ft_lstdelone(t_list *lst, void (*del)(void*));
 void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+
 #endif
