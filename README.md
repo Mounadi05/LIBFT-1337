@@ -1,9 +1,4 @@
-
-
-
-
->This project aims to code a C library regrouping usual functions that you’ll be allowed to use in all your other projects.
-
+>Libft is an individual project at 42 that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions for the rest of the program.
 ---
 
 ### :wrench: :wrench: Mandatory parts [part I] [part II] :
@@ -19,7 +14,7 @@ Part I :
 
 ---
 
-> <i>In this first part, you must re-code a set of the libc functions, as defined in their man. Your functions will need to present the same prototype and behaviors as the originals. Your functions’ names must be prefixed by “ft_”. For instance strlen becomes ft_strlen.</i>
+> <i>In this first part, you must re-code a set of the libc functions, as defined in their man. Your functions will need to present the same prototype and behaviors as the originals.</i>
 
 <p align=center>
 
@@ -103,7 +98,7 @@ Part II :
 ---
 
 
-> <i>In this second part, you must code a set of functions that are either not included in the libc, or included in a different form. Some of these functions can be useful to write Part 1’s functions.</i>
+> <i>In this second part, you must code a set of functions that are either not included in the libc.</i>
 
 <p align=center>
 
@@ -132,7 +127,7 @@ Part II :
 <h3 align=center>
 </h3>
 
-> <i>The following functions will allow you to easily use your lists.</i>
+> <i>functions for manipulate linked list  .</i>
 <p align=center>
 
 | FUNCTION | BEHAVIOR |
