@@ -48,7 +48,7 @@ Part I :
 | • [memchr()](https://github.com/mounadi05/LIBFT-1337/blob/master/ft_memchr.c)   | NONE	   | void	*ft_memchr(const void *s, int c, size_t n) | Scan memory for a character. | <string.h> |
 | • [memcmp()](https://github.com/mounadi05/LIBFT-1337/blob/master/ft_memcmp.c)   | NONE	   | int	ft_memcmp(const void *s1, const void *s2, size_t n) | Compare memory areas.  | <string.h> |
 | • [strnstr()](https://github.com/mounadi05/LIBFT-1337/blob/master/ft_strnstr.c) | NONE	   | char	*ft_strnstr(const char	*haystack, const char	*needle, size_t	len) | Locate a substring in a string.  | <string.h> |
-| • [atoi()](https://github.com/mounadi05/LIBFT-1337/blob/master/ft_atoi.c)       | NONE	   |  int	ft_atoi(const char *s)  |  | <stdlib.h> |
+| • [atoi()](https://github.com/mounadi05/LIBFT-1337/blob/master/ft_atoi.c)       | NONE	   |  int	ft_atoi(const char *s)  |  convert a string to an integer | <stdlib.h> |
 
 ---
 
