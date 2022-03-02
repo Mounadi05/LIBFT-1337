@@ -1,7 +1,7 @@
 >Libft is an individual project at 42 that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions for the rest of the program.
 ---
 
-### :wrench: :wrench: Mandatory parts [part I] [part II] :
+###  Mandatory parts [part I] [part II] :
 
 ---
 
@@ -74,21 +74,12 @@ Part I :
 |     | • [memcmp()](https://github.com/mounadi05/LIBFT-1337/blob/master/ft_memcmp.c) | [man](https://man7.org/linux/man-pages/man3/memcmp.3.html) |
 |     | • [strnstr()](https://github.com/mounadi05/LIBFT-1337/blob/master/ft_strnstr.c) | [man](https://www.freebsd.org/cgi/man.cgi?query=strnstr&sektion=3) |
 |     | • [atoi()](https://github.com/mounadi05/LIBFT-1337/blob/master/ft_atoi.c) | [man](https://man7.org/linux/man-pages/man3/atoi.3.html) |
+| 	  | •[strdup](https://github.com/mounadi05/LIBFT-1337/blob/master/ft_strdup.c)   |  malloc()         | char	*ft_strdup(const char *s)  | Duplicate a string. |  [man](https://man7.org/linux/man-pages/man3/strdup.3.html) |
+| 	  |  • [calloc](https://github.com/mounadi05/LIBFT-1337/blob/master/ft_calloc.c)   |  malloc()         |    void	*ft_calloc(size_t count, size_t size);   | Allocate memory by filling it with zeros. | [man](https://linux.die.net/man/3/calloc) |
 
 ---
 
-</p>
-
-> You must also re-code the following functions, using the function “malloc”:
-
-|  Function    | Allowed function  | Prototype | Description | Manual  |
-|---           |---                |---	       |---          |---      |
-| •[strdup](https://github.com/mounadi05/LIBFT-1337/blob/master/ft_strdup.c)   |  malloc()         | char	*ft_strdup(const char *s)  | Duplicate a string. |  [man](https://man7.org/linux/man-pages/man3/strdup.3.html) |
-| • [calloc](https://github.com/mounadi05/LIBFT-1337/blob/master/ft_calloc.c)   |  malloc()         |    void	*ft_calloc(size_t count, size_t size);   | Allocate memory by filling it with zeros. | [man](https://linux.die.net/man/3/calloc) |
-
----
-
-### :wrench: :factory: Additional functions :
+### Additional functions :
 
 ---
 
@@ -118,11 +109,6 @@ Part II :
 
 </p>
 
----
-
-### :wrench: :white_check_mark: BONUS :
-
----
 
 <h3 align=center>
 </h3>
